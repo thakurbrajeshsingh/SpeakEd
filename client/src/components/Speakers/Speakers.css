@@ -90,7 +90,12 @@ font-style: normal;
 font-size: 30px;
 
 }
-
+.card-section .card:hover {
+  z-index:1;
+  box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(1.05); 
+  
+}
 .card-section .card p {
   max-height: 220px;
   font-family: Mulish;
